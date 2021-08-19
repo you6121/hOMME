@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,200;0,300;0,500;1,500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: 'Georama', sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background: #262626;
+}
+a{
+    text-decoration: none;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+/*+++++++++++++++++++++++++++++++ Style nav bar +++++++++++++++++*/
+nav{
+    display: flex;
+    background: #262626;
+    padding:10px 2%;
+    justify-content: space-between;
+    box-shadow:0 0 15px rgba(0, 0,0, 0.4);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+.nav-right img{
+    flex-grow: 1;
+    width: 25px;
+    margin-right: 25px;
+}
+.nav-midl {
+    flex-grow: 2;
+    justify-content: center;
+}
+.nav-midl a{
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 22px;
+    
+}
+.nav-midl a img{
+    width: 25px;
+    
+}
+.nav-left .log{
+    flex-grow: 1;
+    width: 130px;
+}
+
+/*-------------------------------------- Style Menu Homme ----------------------------------*/ 
+
+.box_home{
+    display: flex;
+    justify-content:start;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    background-color :#262626;
+    
+
+}
+.box_home .links_home{
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+  color: #262626;
+    
+}
+.box_home .links_home h3{
+    position: absolute;
+    bottom: 0;
+
+}
+
+.box_home .links_home img{
+
+  
+    width: 228px;
+    height: 228px;
+    background-color :#fff;
+   transition: all 1s;
+    
+
+}
+.box_home .links_home:hover img{
+    background-color: hsla(231, 10%, 86%, 2);
+    transform: scale(1.2);
+}
+
+/*+++++++++++++++++++++++++++++++ player + list channls+++++++++++++++++++*/
+
+
+
+
+
+
+
