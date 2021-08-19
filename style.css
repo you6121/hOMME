@@ -60,13 +60,14 @@ nav{
 .box_home{
     display: flex;
     justify-content:start;
+    gap: 2%;
     align-content: center;
     flex-wrap: wrap;
-    width: 90%;
-    margin-top: 40px;
+    width: 100%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 10px;
+    padding-left: 1%;
     background-color :#262626;
     
 
@@ -74,13 +75,13 @@ nav{
 .box_home .links_home{
     flex-wrap: wrap;
     justify-content: center;
-    width: 230px;
-    height: 230px;
+    width: 20%;
+    height: 20%;
     text-align: center;
-    margin: 20px;
+    margin: 1%;
     position: relative;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 5%;
   color: #262626;
     
 }
@@ -93,8 +94,8 @@ nav{
 .box_home .links_home img{
 
   
-    width: 228px;
-    height: 228px;
+    width: 100%;
+    height: 15rem;
     background-color :#fff;
    transition: all 1s;
     
